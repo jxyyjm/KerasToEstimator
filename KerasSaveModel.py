@@ -4,7 +4,7 @@
   1) use tf.keras.Model to build-model, then transInto tf.estimator to save 
   2) serving_input_receiver_fn is defined here and receive the pb data
   reference: https://github.com/tensorflow/tensorflow/issues/28976
-  Notice: TF-Verion 2.0.0
+  notice: TF-Verion 2.0.0
 '''
 import os
 import time
