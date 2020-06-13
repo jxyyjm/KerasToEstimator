@@ -1,7 +1,8 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
 '''
-  here save the tf.estimator.export_saved_model for TF-Serving to receive proto-buffer data 
+  1) here save the tf.estimator.export_saved_model for TF-Serving to receive proto-buffer data 
+  2) serving_input_receiver_fn has been defined to receve the pb data
   notice: TF-Version 2.0.0
 '''
 import os
