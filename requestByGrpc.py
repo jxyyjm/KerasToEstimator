@@ -6,7 +6,8 @@
   ===> model is saved by estimator.export_saved_model
   serving_input_receiver_fn has been defined 
   here data is tf.train.Example
-  reference : https://stackoverflow.com/questions/53888284/how-to-send-a-tf-example-into-a-tensorflow-serving-grpc-predict-request
+  reference1: https://stackoverflow.com/questions/53888284/how-to-send-a-tf-example-into-a-tensorflow-serving-grpc-predict-request
+  reference2: https://github.com/ymkigeg/tensorflow_serving/blob/a319e74231a7582911af4d551467d4e5c65ab61f/client/python/serving_grpc_client.py
   notice: TF-Version 1.15.0
 '''
 import sys 
